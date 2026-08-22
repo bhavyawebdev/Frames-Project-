@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body align="center" bgcolor="#eaf2f8">
+    <h1><font color="#1f4e79">Feedback Form</font></h1>
+    <form align="center">
+    <table align="center" width="600" cellpadding="10" cellspacing="5" border="1" bordercolor="#7f9db9" bgcolor="#ffffff">
+        <tr bgcolor="#d9eaf7">
+            <td align="right"><font color="#1f4e79"><b>Name:</b></font></td>
+            <td align="left"><input type="text" name="name" size="40" placeholder="enter your full name" required></td>
+        </tr>
+        <tr>
+            <td align="right"><font color="#1f4e79"><b>Email:</b></font></td>
+            <td align="left"><input type="email" name="email" size="40" placeholder="enter your email" required></td>
+        </tr>
+        <tr bgcolor="#f4f9fc">
+            <td align="right"><font color="#1f4e79"><b>Phone No.:</b></font></td>
+            <td align="left"><input type="tel" name="phone" size="40" placeholder="enter your phone number" required></td>
+        </tr>
+        <tr>
+            <td align="right"><font color="#1f4e79"><b>Gender:</b></font></td>
+            <td align="left">
+                <label><input type="radio" name="gender" value="male" required> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+                <label><input type="radio" name="gender" value="other"> Other</label>
+            </td>
+        </tr>
+        <tr bgcolor="#f4f9fc">
+            <td align="right"><font color="#1f4e79"><b>Rating:</b></font></td>
+            <td align="left">
+                <select name="rating" required>
+                    <option value="">Select a rating</option>
+                    <option value="5">5 - Excellent</option>
+                    <option value="4">4 - Very good</option>
+                    <option value="3">3 - Good</option>
+                    <option value="2">2 - Needs improvement</option>
+                    <option value="1">1 - Poor</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td align="right" valign="top"><font color="#1f4e79"><b>Comments:</b></font></td>
+            <td align="left"><textarea name="comments" rows="7" cols="40" placeholder="Write your feedback here" required></textarea></td>
+        </tr>
+        <tr bgcolor="#d9eaf7">
+            <td colspan="2" align="center"><input type="submit" value="Submit Feedback"></td>
+        </tr>
+    </table>
+    </form>
+   
+</body>
+</html>
